@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with us for any inquiries or support.">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img src="images/logo_new.png" alt="Car Sale Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="listings.html">Car Listings</a></li>
+                <li><a href=car-details.html">Car Details</a></li>
+                <li><a href="sell.html">Sell Your Car</a></li>
+                <li><a href="table.html">Comparison</a></li>
+                <li><a href="form.html">Inquiry Form</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="form-section">
+            <h2>Contact Us</h2>
+            <form action="thankyou.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            <p>Email us at <a href="mailto:info@carsales.com">info@carsales.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Car Sales. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

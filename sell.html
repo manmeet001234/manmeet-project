@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sell your car easily through our platform.">
+    <title>Sell Your Car</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img src="images/logo_new.png" alt="Car Sale Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="listings.html">Car Listings</a></li>
+                <li><a href=car-details.html">Car Details</a></li>
+                <li><a href="sell.html">Sell Your Car</a></li>
+                <li><a href="table.html">Comparison</a></li>
+                <li><a href="form.html">Inquiry Form</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="form-section">
+            <h2>Sell Your Car</h2>
+            <form action="thankyou.html" method="post">
+                <label for="make">Make:</label>
+                <input type="text" id="make" name="make" required>
+
+                <label for="model">Model:</label>
+                <input type="text" id="model" name="model" required>
+
+                <label for="year">Year:</label>
+                <input type="number" id="year" name="year" required>
+
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+
+                <label for="image">Upload Image:</label>
+                <input type="file" id="image" name="image" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Car Sales. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
